@@ -1,0 +1,63 @@
+ /* desktop 1*/
+ body{
+  display:flex;
+  border: 10px solid;
+  background-color: #FAE4AC;
+  margin: 0px 0px;
+  overflow: hidden;
+  height: 100vmax;
+  width: 100vmax;
+ }
+
+.topBar {
+    position: absolute;
+    width: 100vmax;
+    height: 140px;
+    left: 0px;
+    top: 0px;
+    background: #faf3ac
+    }
+    .topBar h1{
+      margin-left: 40%;
+      font-size: 70px;
+    }
+    .sideBar {
+    position: absolute;
+    width: 100px;
+    height: 100vmax;
+    left: 0px;
+    top: 0px;
+    background: #fce69eeb
+    }
+    
+    img{
+      width: 100vmax;
+      height: 100vh;
+    }
+    .picture
+    {position: absolute;
+    width: 500px;
+  height: 200px;
+   left: 241px;
+    top: 182px;
+   background: url(Star mountain.jpg)}
+  
+    .Home{
+      display: flex;
+      justify-content: center;
+    }
+.Home p {
+  font-size: larger;
+}
+    .aboutMe{ 
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+    }
+    .aboutMe a {
+      font-size:larger ;
+      text-decoration: none;
+      color: #000000;
+    }
+    /*Desktop 2*/
+    
